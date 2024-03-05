@@ -1,8 +1,9 @@
 // callback
 
+/* 
 let multiplicar = (num1, num2) => num1*num2;
 
-const pasarACentigrados = gradosFarenheit => (5/9)*(graod)
+ const pasarACentigrados = gradosFarenheit => (5/9)*(graod)
 
 const imprimeGrados = (callbackFn,gradosFarenheit)=> {
   let temperatura = caallbackFn(gradosFarenheit);
@@ -10,6 +11,8 @@ const imprimeGrados = (callbackFn,gradosFarenheit)=> {
 }
 
 imprimeGrados(pasarAcentigrados, 90);
+ */
+
 
 //objetos
 
@@ -24,7 +27,7 @@ const persona = {
   }
 };
 
-// otra forma de crear un objeto
+// Segunda forma para crear un objeto
 
 const person = {};
 person.nombre = "Nohemy";
@@ -34,7 +37,7 @@ person.caracteristicas = {
   ojos: "miel",
   descripcion: "la mejor mamá del mundo"};
 
-// tercera forma de crear objetos
+// tercera forma para crear objetos
 
 let name = "Marina";
 let apellido = "Molina";
@@ -49,3 +52,18 @@ const person2 = {name,apellido,caracteristics};
 console.log(persona);
 console.log(person);
 console.log(person2);
+
+
+// cuarta forma para crear objetos 
+
+const personObjet = new Object();
+personObjet.nombre = "GiiO";
+
+//Array de objetos 
+
+const arregloDeObjetos = [persona, person, person2];
+arregloDeObjetos.forEach(element) => {
+ objeto.nombre = "Gimyo"; 
+};
+console.log(arregloDeObjetos);
+
