@@ -61,9 +61,29 @@ personObjet.nombre = "GiiO";
 
 //Array de objetos 
 
+
 const arregloDeObjetos = [persona, person, person2];
 arregloDeObjetos.forEach(element) => {
  objeto.nombre = "Gimyo"; 
 };
 console.log(arregloDeObjetos);
 
+
+//
+const Perro = {
+  nomnre: "pulgas",
+  edad: 3,
+  obtenerNombre(){
+    return this.nombre;
+  },
+  cambiarNombre(nuevonombre){
+    this.nombre= nuevonombre;
+  }
+}
+
+console.log(Perro.obtenerNombre());
+console.log(Perro.cambiarNombre("Matias"));
+
+// desestructurar
+
+const {nomnre, apellido, edad, caracteristicas} = personasss;
